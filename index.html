@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap File -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Css Style link -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>BookMarker-Design</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container px-3 py-4">
+            <h3>Bookmarker</h3>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Container One -->
+    <div class="container py-5">
+        <div class="bg text-center">
+            <div class="column">
+                <h2 class="py-3">Bookmark your favorite sites</h2>
+                <p class="title py-2">Site Name</p>
+                <input onkeyup="validName()" type="text" id="NameInput" placeholder="Bookmark Name" 
+                class="form-control w-75 m-auto">
+                <p id="alertName" class="alert alert-danger w-50 m-auto" style="display: none;">
+                    Plase Enter Name url already exist
+                </p>
+                <p class="title py-2">Site URL</p>
+                <input onkeyup="validUrl()" type="text" id="UrlInput" placeholder="website URL" 
+                class="form-control w-75 m-auto">
+                <p id="alertUrl" class="alert alert-danger w-50 m-auto" style="display: none;">
+                    Url Field is required
+                </p>
+                <div class="m-auto py-3">
+                    <button onclick="onClick()" class="btn btn-primary">Submit</button>
+                    <button onclick="clearData()" class="btn btn-danger">Clear Data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Container One -->
+    <!-- Start Section Add bookmark -->
+    <div class="container py-2">
+        <div class="column" id="bookmarkLsit">
+            
+        </div>
+    </div>
+    <!-- End Section Add bookmark -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container px-3 py-5">
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Custom File Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

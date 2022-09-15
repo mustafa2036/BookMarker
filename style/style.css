@@ -1,0 +1,46 @@
+header .container{
+    color: #aaa;
+    border-bottom: 1px solid #999;
+    font-size: 26px;
+}
+
+.container .bg{
+    background-color: #eee;
+    border: none;
+    padding: 30px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #333;
+    font-weight: bold;
+}
+
+.box-wite{
+    background: linear-gradient(#eee,#fff);
+}
+.box-wite h2{
+    color: #333;
+    width: 30%;
+}
+.btn-box{
+    width: 7%;
+    padding: 10px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .container{
+    font-size: 14px;
+    border-top: 1px solid #999;
+}
+
+footer .container p{
+    color: #aaa;
+}
