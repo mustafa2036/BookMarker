@@ -3,7 +3,15 @@ header .container{
     border-bottom: 1px solid #999;
     font-size: 26px;
 }
-
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #dddddd;
+}
+::-webkit-scrollbar-track{
+    background-color: #111;
+}
 .container .bg{
     background-color: #eee;
     border: none;
